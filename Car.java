@@ -8,6 +8,14 @@ public class Car extends Vehicle {
     discountApplied = false; // default value
   }
 
+  @Override
+  public double calculateTollPrice() {
+    if (getPassengers() > 4) {
+      return getTollFee() * 4;
+    }
+    return getTollFee() * getPassengers();
+  }
+
   public boolean isElectric() {
     return electric;
   }
@@ -20,7 +28,8 @@ public class Car extends Vehicle {
     discountApplied = n;
   }
 
-  public void printCar() {
+  @Override
+  public void printInfo() {
     System.out.println("License: " + getLicensePlate());
     System.out.println("Toll: " + getTollFee());
     System.out.println("Passengers: " + getPassengers());
