@@ -1,3 +1,4 @@
+package old;
 public class ApplicationWindow extends Window {
     ApplicationWindow(int size) {
         super(size);

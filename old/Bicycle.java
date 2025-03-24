@@ -1,3 +1,4 @@
+package old;
 public class Bicycle extends Vehicle {
     private int gearCount;
 

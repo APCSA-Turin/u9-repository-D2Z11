@@ -1,3 +1,4 @@
+package old;
 public class GamingDesktop extends Desktop {
     private String graphicsCard;
 

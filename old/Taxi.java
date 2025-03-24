@@ -1,3 +1,4 @@
+package old;
 public class Taxi extends Car {
     double fareCollected;
     // boolean hasDiscount;

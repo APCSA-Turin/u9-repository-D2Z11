@@ -1,3 +1,4 @@
+package old;
 public class Vehicle {
   private String licensePlate;
   private double tollFee;

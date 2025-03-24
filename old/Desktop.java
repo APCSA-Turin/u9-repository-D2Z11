@@ -1,3 +1,4 @@
+package old;
 public class Desktop extends Computer {
     private int screenSize;
     private int memory;

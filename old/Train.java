@@ -1,3 +1,4 @@
+package old;
 public class Train extends Vehicle {
     int passengers = 0;
 

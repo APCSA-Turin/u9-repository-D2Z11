@@ -1,3 +1,4 @@
+package old;
 public class CanvasWindow extends Window {
     CanvasWindow(int size) {
         super(size);

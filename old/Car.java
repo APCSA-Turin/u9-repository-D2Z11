@@ -1,3 +1,4 @@
+package old;
 public class Car extends Vehicle {
   private boolean electric;
   private boolean discountApplied;
